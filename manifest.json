@@ -1,0 +1,21 @@
+{
+  "name": "Platypus",
+  "version": "0.4",
+  "manifest_version": 2,
+
+  "description": "Platypus delivers beautiful, inspiring and breathtaking images for your viewing pleasure.",
+  "icons": { "16": "16px.png", "48": "48px.png", "128": "128px.png" },
+
+  "app": {
+    "urls": [
+      "http://platypus.fi/", 
+      "http://www.platypus.fi/"
+    ],
+    "launch": {
+      "web_url": "http://platypus.fi"
+    }
+  },
+
+  "offline_enabled": false,
+  "permissions": ["geolocation"]
+}
